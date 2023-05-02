@@ -1,0 +1,42 @@
+.button{
+    float: right;
+   
+    padding: 10px;
+    border-radius: 10px;
+    
+    background: transparent;
+    background-color: #fcd9e1;
+    color: #b30021; 
+    margin-top:2rem;
+    margin-left:20rem;
+}
+.button.demande{
+    background-color: #fcd9e1;
+    color: #b30021;
+    
+    width: 100px;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  
+	cursor: pointer;
+    border: none;
+	outline: none;
+	padding: 5px 0;
+    
+}
+.button.conge {
+    background-color: #cee9be;
+    color: #006b21;
+    width: 100px;
+    float: right;
+   
+    padding: 10px;
+    border-radius: 5px;
+  
+	cursor: pointer;
+    border: none;
+	outline: none;
+	
+}

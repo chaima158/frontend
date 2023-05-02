@@ -1,0 +1,155 @@
+
+  .Certif{
+    
+    display: flex;
+    padding: 15px; 
+    margin-left:-74rem;
+    margin-top:3rem;
+  }
+  .Certif .Meta {
+    flex-grow: 1;
+    padding-right: 15px;
+  }
+  .Certif .Meta input {
+    
+   
+    outline: none;
+	border: none;
+	width: 220px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #fcf0f1;
+	margin: 5px 0;
+	font-size: 14px;
+  }
+  .Certif .Meta button {
+    border: none;
+	outline: none;
+	padding: 12px 0;
+	
+	border-radius: 20px;
+	width: 150px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+  background-color: #cee9be;
+	color: white;
+	margin: 10px;
+  }
+  .Certif #downloadWrapper {
+    padding: 20px;
+    
+  }
+  .Certif #certificateWrapper {
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  .Certif #certificateWrapper img {
+    display: block;
+  }
+  .Certif #certificateWrapper h8{
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 90px;
+    top: 300px;
+    font-size: 25pt;
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+    color: #3c3c3c;
+    
+  }
+  .Certif #certificateWrapper p {
+   
+    position: absolute;
+    font-family: "Staatliches", cursive;
+    font-size: 13pt;
+    margin-left: 7rem;
+    color: #3c3c3c;
+    
+    
+    
+  }
+  .image{
+    margin-left:20rem;
+    margin-top:-45rem;
+   
+
+  }
+
+
+  
+.Appdash {
+    /* padding: 0.5rem 3.5rem; */
+    color: var(--black);
+    background: linear-gradient(
+      106.37deg,
+      #ffe1bc 29.63%,
+      #ffcfd1 51.55%,
+      #f3c6f1 90.85%
+    );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .AppGlassdash {
+    display: grid;
+    height: 97%;
+    width: 97%;
+    background: var(--glass);
+    border-radius: 2rem;
+    gap: 16px;
+    grid-template-columns: 11rem auto 20rem;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .AppGlassdash{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .AppGlassdash{
+      grid-template-columns: 1fr;
+    } 
+  }
+  .calendar-container{
+      
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+     
+     
+  }
+  .fc-event{
+      background: var(--orange-gradient)!important;
+      color: black;
+  }
+  .fc .fc-timegrid-slot{
+      height: 2.5rem!important;
+      color: black;
+  }
+  td{
+      border : 1px solid var(--grey)!important
+  }
+  @media screen and (max-width: 1200px) {
+      .AppGlassdach{
+        grid-template-columns: 10% 50% auto;
+        overflow-y: scroll;
+      } 
+    }
+    
+    @media screen and (max-width: 768px) {
+      .AppGlassdach{
+        grid-template-columns: 1fr;
+      } 
+    }

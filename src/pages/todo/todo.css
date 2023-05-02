@@ -1,0 +1,161 @@
+:root {
+  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: #788097;
+    --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+    --pink: #f4fef6;
+    --glass: rgba(255, 255, 255, 0.925);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --activeItem: #f799a354;
+  }
+  
+  .to {
+    /* padding: 0.5rem 3.5rem; */
+    height: 150vh;
+    color: var(--black);
+    background: linear-gradient(
+      106.37deg,
+      #dde8e4 29.63%,
+      #b8d2d8 51.55%,
+      #e9eff4 90.85%
+    );
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+
+
+  }
+  
+  .toto {
+    display: grid;
+      height: 96%;
+      width: 96%;
+      background: var(--glass);
+      border-radius: 2rem;
+      gap: 16px;
+      grid-template-columns: 11rem auto 0rem;
+     
+        direction: ltr;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .toto{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .toto{
+      grid-template-columns: 1fr;
+    } 
+  }
+  .btntable{
+    color: green;
+    background: 'rgb(145 254 159 / 47%)',
+  
+  }
+ 
+
+  
+  .bodytodo {
+   background-color: #f4fef6;
+   color: #111;
+  }
+  
+  .containertodo{
+    max-width: 1000px;
+    width:100%;
+    margin: auto;
+    padding: 40px;
+   
+    
+  }
+  .sectiontodo{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .h1{
+   font-size: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+   
+  }
+  
+ .card{
+    flex: 0 0 calc(33.33% - 40px);
+   max-width:  calc(33.33% - 40px);
+   width: 100%;
+   background: #cee9be;
+   border-radius: 20px;
+   padding: 50px;
+   margin-bottom: 30px;
+   margin-left: 2px;
+   transition: .3s;
+   border:  2px solid transparent;
+
+
+  }
+  
+  .addtodo{
+    
+  
+    background: #f9e0e3;
+    color: #000;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px ;
+    display:flex;
+    justify-content: center;
+    
+    margin-top: 60px; 
+    margin-left: 170px;
+    align-items: center;
+  }
+  
+  .card:hover{
+    border-color: #0a000b;
+  }
+  .btntodo{
+  
+    background: #e1f5da;
+    color: #000;
+    border-radius: 10px;
+    max-width: 120px;
+    height: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    margin-left: 360px;
+    margin-bottom: 20px;
+    align-items: center;
+   }
+  
+  .iconstodo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .icontodo{
+    cursor: pointer;
+    font-size: 20px;
+  }
